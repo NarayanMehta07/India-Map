@@ -1,0 +1,21 @@
+area {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  area[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: -100%;
+    left: 0;
+  }
+
+
+  nav{
+    display: flex;
+  }
+
+ .navbarNav{
+    background-color: rebeccapurple;
+  }
